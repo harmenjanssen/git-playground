@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: releases
+  api_key:
+    secure: a5E3mE9nmv9Hh8AxKfEYOjcBa/yMM6x8v8smI+Qx022SlEdNLvrncC0ydI44LYdmvknDIC7CS0YVps5C0suDeNXe8h7vBApq6/B+llKwN/RUFYM/usDPoEns9WvCw+HAtg9p2PCtVt4nmvvM2jhZb7PyV5maHXSwQUZSulfrGtU8Kb22XX2T+onYaRwkvXoNNxApb2HZlR8H3EQDUfHObrT+CbLj8JkMXR7lBYXSZvv+l12rVmQUHvZY7BRXuqiy4zsjuoPYR5Vr7FG+YbNNfzpZuQZJMBhVznRwJLs9o0Fdfey3vPm+5BcIo+IsF0qI9OVbfdPR7uJM0D4um7d9QmXRpA/w3MgAByhBnSwAYaQVisZ6tPaWpAkuCEHox9XCa/KAUuxG7It9DlFRzs1/kPC8tieTvpp8zrMOhu21bQ9Kisrj/XgzJ2VO770qRVknXn8oLRdJcyitGgzl5PuuGW2VoFUb5HpNEvtSkKKc60xq/JnmR3iVl3xuqj4UsYddzYZwZmww2Dc66rpScMRjP2MQjMcL6geun9D9lMIFGXfWKgmsvw4TwO5oM7yC0KradNeN4mNeLRz2hh+yBjIGZzUnz9LvIchZOsaAnkLGYNf5F9CGe16DXpRsK1WhMA37DnYTTMHOzZYeRHyIpRUQlnFdU/dXFSUk3yJV8S1abaM=
+  file: ''
+  on:
+    repo: harmenjanssen/git-playground
