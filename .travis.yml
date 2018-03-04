@@ -8,3 +8,5 @@ deploy:
   skip_cleanup: true
   on:
     repo: harmenjanssen/git-playground
+notifications:
+  email: false
