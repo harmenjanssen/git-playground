@@ -1,7 +1,7 @@
 language: php
 script:
   - "echo 'Running unit tests (1)' >> BLA"
-  - "[[ $TRAVIS_TAG=~ -release$ ]] && echo 'Laten we deployen'"
+  - "[[ $TRAVIS_TAG =~ -release$ ]] && echo 'Laten we deployen'"
 deploy:
   provider: releases
   api_key:
